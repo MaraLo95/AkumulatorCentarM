@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Akumulator Centar M</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid p-0 headertop">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt me-2" style="color: white;"></small>
+                    <small>Kralja Milutina 138, Šabac</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock me-2" style="color: white;"></small>
+                    <small>Pon - Pet : 09.00 H - 17.00 H</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt me-2" style="color: white;"></small>
+                    <small>+381 (0)65 865 42 65</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" style="color: white;" href=""><i class="fab fa-facebook-f"></i></a>
+                   <!--  <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0" id="nv">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <img id="logo" src="img/logo.png">
+            <!-- <h2 class="m-0 text-primary">Solartec</h2> -->
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Početna</a>
+                <a href="about.html" class="nav-item nav-link">O Nama</a>
+                <a href="service.html" class="nav-item nav-link">Usluge</a>
+                <a href="" class="nav-item nav-link">Proizvodi</a>
+                <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+            </div>
+            <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+           
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/solar4.png'>">
+                <img class="img-fluid" src="img/solar4.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Prodaja i Ugradnja Solarnih Off-Grid Sistema</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Tražite rešenje za struju na vašu vikendici, brodu ili bilo kom drugom objektu, na pravom ste mestu! Naš tim se bavi prodajom i ugradnjom off-grid nezavisnih sistema električnog napajanja.</p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Pročitaj Više</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                 <div class="owl-carousel-item position-relative" data-dot="<img src='img/akumulator.png'>">
+                <img class="img-fluid" src="img/akumulator.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Prodaja svih vrsta akumulatora</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">U našoj ponudi nudimo akumulatore raznih vrsta i proizvođača! Kod nas možete kupiti nov, zameniti i prodati vaš stari akumulator po najboljim cenama, uz obezbedjen servis u garantnom roku. Dođite u radnju i uverite se! </p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Pročitaj Više</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+       <!--      <div class="owl-carousel-item position-relative" data-dot="<img src='img/solar4.png'>">
+                <img class="img-fluid" src="img/solar4.png.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-users text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">300</h1>
+                    </div>
+                    <h5 class="mb-3">Zadovoljnih mušterija</h5>
+                    <span>Naše mušterije su naša najbolja reklama, bil oda kupuju akumulatore ili off grid solarne sisteme.</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">200</h1>
+                    </div>
+                    <h5 class="mb-3">Urađenih projekata</h5>
+                    <span>Pored najsavremenije opreme nudimo i brzu instalaciju solarnih sistema</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-award text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">10</h1>
+                    </div>
+                    <h5 class="mb-3">Godina iskustva</h5>
+                    <span>Od prodaje akumulatora pa do prodaje i ugradnje solarnih sistema</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-users-cog text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">50</h1>
+                    </div>
+                    <h5 class="mb-3">i više Saradnika</h5>
+                    <span>Radeći na velikim projektima stekli smo odlične saradnike</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/akumulator1.png" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Akumulatori i Baterije</h6>
+                        <h1 class="mb-4">10 Godina Iskustva u Prodaji Akumulatora</h1>
+                        <p><b>Akumulator Centar M</b> bavi se prodajom i servisom akumulatora i baterija svih vrsta. Kod nas možete kupiti nov, zameniti i prodati vaš stari akumulator po najboljim cenama, uz obezbedjen servis u garantnom roku.
+                            <br>
+                        <br>Proizvodjači koje zastupamo su poznati svetski brendovi poznati po kvalitetu i izdržljivosti: <b>Fiamm, Varta,  AutoPart, Optima Battery, Tab battery, Long, LP</b>…. a tu su i domaći brendovi kao: <b>Iron Ultra, Power Max, Magnum, Ciak Starter, Crown</b>…. i mnogi drugi.
+                        <br>
+                        <br>Akumulator Centar M nalazi se u <b>Šapcu, Kralja Milutina 138 (bivša Štefice Kosijer),</b> gde se nalazi prodaja i servis akumulatora kao i prodaja solarnih sistema za električnu energiju.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Garancija na akumulatore</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Zamena i otkup akumulatora</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Najpovoljnije cene akumulatora</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Istraži Više</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Naše Usluge</h6>
+                <h2 class="mb-4">Pored prodaje akumulatora bavimo se prodajom i ugrdnjom Solarnih Off-Grid sistema</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-12 col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <img src="img/solars.png">
+                            </div>
+                            <h4 class="mb-3">Prodaja Off-Grid Solarnih Sistema</h4>
+                            <p>U nasoj ponudi ponudi možete pronaći širok asortiman proizvoda raznih proizvođača.</p>
+                            <a class="small fw-medium" href="">Pročitaj Više<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <img src="img/solar1s.png">
+                            </div>
+                            <h4 class="mb-3">Ugradnja Solarnih Panela i Sistema</h4>
+                            <p>Nas tim ugradice solarni sistem na vasu vikendicu u najkracem mogucem roku!</p>
+                            <a class="small fw-medium" href="">Pročitaj Više<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/akumulator.png" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                               <img src="img/akumulators.png">
+                            </div>
+                            <h4 class="mb-3">Prodaja Akumulatora</h4>
+                            <p>U nasem asortimanu mozete naci akumulatore,baterije i punjače širokog spektra primene</p>
+                            <a class="small fw-medium" href="">Pročitaj Više<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/akumulator2.png" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <img src="img/akumulator1s.png">
+                            </div>
+                            <h4 class="mb-3">Servis Akumulatora</h4>
+                            <p>Vršimo održavanje akumulatora, garancija na svaki prodati nov akumulator je 2 godine</p>
+                            <a class="small fw-medium" href="">Pročitaj Više<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <h6 class="text-primary">Off-Grid Solarni Sistemi</h6>
+                        <h1 class="mb-4">Prodaja i Ugradnja Off-Grid Solarnih Sistema</h1>
+                        <p class="mb-4 pb-2">Akumulator Centar M bavi se i prodajom i ugradnjom Off-Grid Solarnih Sistema na vikendicama i drugim objektima. OFF GRID solarni sistem najčešće se koristi u slučajevima kada je distributivna mreža električne energije lokacijski nedostupna krajnjim korisnicima. Kod ovakvih sistema upotreba baterija za skladištenje električne energije je obavezna.</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Kvalitetna</p>
+                                        <h5 class="mb-0">Oprema</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-user-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Tim</p>
+                                        <h5 class="mb-0">Stručnjaka</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-drafting-compass text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Besplatne</p>
+                                        <h5 class="mb-0">Konsultacije</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-headphones text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Garancija i</p>
+                                        <h5 class="mb-0">Odrzavanje</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/solar1.png" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+   <!--  <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Our Projects</h6>
+                <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Solar Panels</li>
+                        <li class="mx-2" data-filter=".second">Wind Turbines</li>
+                        <li class="mx-2" data-filter=".third">Hydropower Plants</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Solar Panels</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Wind Turbines</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Hydropower Plants</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Solar Panels</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Wind Turbines</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Hydropower Plants</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Imaš pitanje za nas?</h6>
+                        <h1 class="mb-4">Pišite Nam!</h1>
+                        <p class="mb-4 pb-2">Bilo da se radi o prodaji, ugradnji ili prodaji i ugradnji, ostavite nam poruku o vašim planovima i potrebama i mi ćemo vas ubrzo kontaktirati.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Vaše Ime" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Vaš Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Broj Telefona" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Izaberi uslugu</option>
+                                        <option value="1">Prodaja solarnih sistema</option>
+                                        <option value="2">Ugradnja Solarnih Sistema</option>
+                                        <option value="3">Prodaja Akumulatora</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Poruka"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Pošalji</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+   <!--  <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Team Member</h6>
+                <h1 class="mb-4">Experienced Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-1.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-2.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-3.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Rekli Su</h6>
+                <h1 class="mb-4">O Nama</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/miro.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>U ovoj radnji sam kupio ceo solarni sistem za vikendicu. Tim je instalaciju zavrsio u rekordnom roku, sve pohvale. </p>
+                        <h5 class="mb-1">Miroslav</h5>
+                        <span class="fst-italic">Beograd</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/maja.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Sve preporuke za Milana, i pohvale na znanju kada je oprema u pitanju. Kombi koji sam pretvorila u kampera sada ima struju za svakodnevno funkcionisanje.</p>
+                        <h5 class="mb-1">Marija</h5>
+                        <span class="fst-italic">Ceo Svet</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/treci1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Volim ovo mesto, najviše zbog ekologije i reciklaže starih akumulatora. Povoljne cene akumulatora i ljubazna usluga.</p>
+                        <h5 class="mb-1">Milisav</h5>
+                        <span class="fst-italic">Šabac</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Adresa</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kralja Milutina 138, Šabac</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+381 (0)65 865 42 65</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>office@centarm.rs</p>
+                    <div class="d-flex pt-2">
+                        <!-- <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                     <!--    <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Linkovi</h5>
+                    <a class="btn btn-link" href="">O Nama</a>
+                    <a class="btn btn-link" href="">Kontakt</a>
+                    <a class="btn btn-link" href="">Naše Usluge</a>
+                    <a class="btn btn-link" href="">Prava i Privatnost</a>
+                    <a class="btn btn-link" href="">Podrška</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Galerija</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Prepišite se na naš bilten i slaćemo vam akcijske ponude redovno.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Vaš email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Pošalji</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Akumulator Centar M</a>, Sva prava su rezervisana.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="index.html" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" style="background-color: #FF6C37;"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
